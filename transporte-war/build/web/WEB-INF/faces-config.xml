@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    
+    <!-- Reglas Generadas -->
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.buscar</from-outcome>
+            <to-view-id>/app/inicio/empresa/buscar.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.lista</from-outcome>
+            <to-view-id>/app/inicio/empresa/lista.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.nuevo</from-outcome>
+            <to-view-id>/app/inicio/empresa/nuevo.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.detalle.carteras</from-outcome>
+            <to-view-id>/app/inicio/empresa/detalle/carteras.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.detalle.detalle</from-outcome>
+            <to-view-id>/app/inicio/empresa/detalle/detalle.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.detalle.editar</from-outcome>
+            <to-view-id>/app/inicio/empresa/detalle/editar.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>app.inicio.empresa.detalle.eliminar</from-outcome>
+            <to-view-id>/app/inicio/empresa/detalle/eliminar.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+</faces-config>
+                                    
